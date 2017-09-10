@@ -226,10 +226,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yg-AZ-sVd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </arscnView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98c-8r-nBR">
                                 <rect key="frame" x="23" y="20" width="17" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -242,9 +238,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="DBh-EW-7GJ"/>
                     </view>
-                    <connections>
-                        <outlet property="sceneView" destination="9yg-AZ-sVd" id="WES-on-G8T"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1pW-Be-ynd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -298,9 +291,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rep-yJ-bZY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </arscnView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyt-CF-fy8">
                                 <rect key="frame" x="24" y="20" width="17" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -311,17 +301,8 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Rep-yJ-bZY" firstAttribute="leading" secondItem="3GM-5H-e5Q" secondAttribute="leading" id="BOa-69-FQl"/>
-                            <constraint firstItem="Rep-yJ-bZY" firstAttribute="bottom" secondItem="3GM-5H-e5Q" secondAttribute="bottom" id="PFA-ea-Hj3"/>
-                            <constraint firstItem="Rep-yJ-bZY" firstAttribute="top" secondItem="abr-gc-B9m" secondAttribute="top" id="cDz-wo-bOk"/>
-                            <constraint firstItem="Rep-yJ-bZY" firstAttribute="trailing" secondItem="3GM-5H-e5Q" secondAttribute="trailing" id="rHf-sy-OfS"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3GM-5H-e5Q"/>
                     </view>
-                    <connections>
-                        <outlet property="sceneView" destination="Rep-yJ-bZY" id="OtE-jW-0CI"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ff-ke-AFJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -387,6 +368,6 @@
         <image name="menu" width="180" height="180"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="d28-Li-OxV"/>
+        <segue reference="29M-oq-8ur"/>
     </inferredMetricsTieBreakers>
 </document>
