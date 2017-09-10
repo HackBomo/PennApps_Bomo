@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		A90FDC7C1F63977A007A4E9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDC7B1F63977A007A4E9C /* AppDelegate.swift */; };
 		A90FDC7E1F63977A007A4E9C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A90FDC7D1F63977A007A4E9C /* art.scnassets */; };
-		A90FDC801F63977A007A4E9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDC7F1F63977A007A4E9C /* ViewController.swift */; };
 		A90FDC831F63977A007A4E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FDC811F63977A007A4E9C /* Main.storyboard */; };
 		A90FDC851F63977A007A4E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90FDC841F63977A007A4E9C /* Assets.xcassets */; };
 		A90FDC881F63977A007A4E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90FDC861F63977A007A4E9C /* LaunchScreen.storyboard */; };
 		A90FDC931F63977B007A4E9C /* PennApps_BomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDC921F63977B007A4E9C /* PennApps_BomoTests.swift */; };
 		A90FDC9E1F63977B007A4E9C /* PennApps_BomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDC9D1F63977B007A4E9C /* PennApps_BomoUITests.swift */; };
+		A90FDCAC1F639844007A4E9C /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCAB1F639844007A4E9C /* ARViewController.swift */; };
+		A90FDCAE1F6399A6007A4E9C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCAD1F6399A6007A4E9C /* IntroViewController.swift */; };
+		A90FDCB01F63B02C007A4E9C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCAF1F63B02C007A4E9C /* CategoryViewController.swift */; };
+		A90FDCB21F63C091007A4E9C /* SquatPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCB11F63C091007A4E9C /* SquatPop.swift */; };
+		A90FDCB51F644C8B007A4E9C /* JumpARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCB41F644C8B007A4E9C /* JumpARViewController.swift */; };
+		A90FDCB71F644EA5007A4E9C /* JumpPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCB61F644EA5007A4E9C /* JumpPop.swift */; };
+		A90FDCB91F646BB4007A4E9C /* StatHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCB81F646BB4007A4E9C /* StatHomeViewController.swift */; };
+		A90FDCBB1F64B51B007A4E9C /* SquatStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FDCBA1F64B51B007A4E9C /* SquatStatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		A90FDC781F63977A007A4E9C /* PennApps_Bomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennApps_Bomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90FDC7B1F63977A007A4E9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90FDC7D1F63977A007A4E9C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		A90FDC7F1F63977A007A4E9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A90FDC821F63977A007A4E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A90FDC841F63977A007A4E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90FDC871F63977A007A4E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		A90FDC991F63977B007A4E9C /* PennApps_BomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennApps_BomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90FDC9D1F63977B007A4E9C /* PennApps_BomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennApps_BomoUITests.swift; sourceTree = "<group>"; };
 		A90FDC9F1F63977B007A4E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90FDCAB1F639844007A4E9C /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		A90FDCAD1F6399A6007A4E9C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		A90FDCAF1F63B02C007A4E9C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		A90FDCB11F63C091007A4E9C /* SquatPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatPop.swift; sourceTree = "<group>"; };
+		A90FDCB41F644C8B007A4E9C /* JumpARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpARViewController.swift; sourceTree = "<group>"; };
+		A90FDCB61F644EA5007A4E9C /* JumpPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpPop.swift; sourceTree = "<group>"; };
+		A90FDCB81F646BB4007A4E9C /* StatHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatHomeViewController.swift; sourceTree = "<group>"; };
+		A90FDCBA1F64B51B007A4E9C /* SquatStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatStatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				A90FDC7B1F63977A007A4E9C /* AppDelegate.swift */,
+				A90FDCAB1F639844007A4E9C /* ARViewController.swift */,
+				A90FDCB41F644C8B007A4E9C /* JumpARViewController.swift */,
+				A90FDCAD1F6399A6007A4E9C /* IntroViewController.swift */,
+				A90FDCAF1F63B02C007A4E9C /* CategoryViewController.swift */,
+				A90FDCB81F646BB4007A4E9C /* StatHomeViewController.swift */,
+				A90FDCB31F63C09B007A4E9C /* Popup */,
 				A90FDC7D1F63977A007A4E9C /* art.scnassets */,
-				A90FDC7F1F63977A007A4E9C /* ViewController.swift */,
 				A90FDC811F63977A007A4E9C /* Main.storyboard */,
 				A90FDC841F63977A007A4E9C /* Assets.xcassets */,
 				A90FDC861F63977A007A4E9C /* LaunchScreen.storyboard */,
 				A90FDC891F63977B007A4E9C /* Info.plist */,
+				A90FDCBA1F64B51B007A4E9C /* SquatStatsViewController.swift */,
 			);
 			path = PennApps_Bomo;
 			sourceTree = "<group>";
@@ -126,6 +146,15 @@
 				A90FDC9F1F63977B007A4E9C /* Info.plist */,
 			);
 			path = PennApps_BomoUITests;
+			sourceTree = "<group>";
+		};
+		A90FDCB31F63C09B007A4E9C /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				A90FDCB11F63C091007A4E9C /* SquatPop.swift */,
+				A90FDCB61F644EA5007A4E9C /* JumpPop.swift */,
+			);
+			path = Popup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90FDC801F63977A007A4E9C /* ViewController.swift in Sources */,
+				A90FDCB01F63B02C007A4E9C /* CategoryViewController.swift in Sources */,
+				A90FDCB71F644EA5007A4E9C /* JumpPop.swift in Sources */,
+				A90FDCBB1F64B51B007A4E9C /* SquatStatsViewController.swift in Sources */,
+				A90FDCB21F63C091007A4E9C /* SquatPop.swift in Sources */,
+				A90FDCB91F646BB4007A4E9C /* StatHomeViewController.swift in Sources */,
 				A90FDC7C1F63977A007A4E9C /* AppDelegate.swift in Sources */,
+				A90FDCB51F644C8B007A4E9C /* JumpARViewController.swift in Sources */,
+				A90FDCAE1F6399A6007A4E9C /* IntroViewController.swift in Sources */,
+				A90FDCAC1F639844007A4E9C /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				DEVELOPMENT_TEAM = W444RWV5J8;
 				INFOPLIST_FILE = PennApps_Bomo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniochan.PennApps-Bomo";
@@ -446,7 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T2CXW95TJ7;
+				DEVELOPMENT_TEAM = W444RWV5J8;
 				INFOPLIST_FILE = PennApps_Bomo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniochan.PennApps-Bomo";
